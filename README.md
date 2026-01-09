@@ -1,45 +1,45 @@
-# 🏥 Prédiction du risque de réadmission hospitalière (30 jours)
+# Prediction of Hospital Readmission Risk (30 Days)
 
-## 🎯 Objectif
-Ce projet illustre comment un outil de **machine learning** peut aider les établissements
-de santé à **prioriser le suivi post-hospitalisation**, en estimant le risque de réadmission
-d’un patient à moins de **30 jours** après sa sortie.
+## Objective
+This project demonstrates how a machine learning approach can support healthcare institutions
+in prioritizing post-discharge follow-up by estimating the risk of patient readmission within
+30 days after hospital discharge.
 
-⚠️ Projet de démonstration (POC) à visée pédagogique.  
-Il ne s’agit **pas** d’un outil de diagnostic médical.
-
----
-
-## 🏥 Intérêt métier (secteur santé)
-La réadmission à 30 jours est un indicateur clé :
-- de qualité des soins,
-- de charge pour les équipes hospitalières,
-- et de coûts pour les établissements de santé.
-
-Un outil de priorisation permet :
-- d’identifier les patients nécessitant un suivi renforcé,
-- d’optimiser l’allocation des ressources soignantes,
-- d’appuyer la prise de décision clinique (sans la remplacer).
+This project is a proof of concept (POC) intended for educational and portfolio purposes only.
+It is not a medical diagnostic tool.
 
 ---
 
-## 🧠 Approche IA
-- Données anonymisées de parcours patient
-- Prétraitement via pipeline scikit-learn
-- Modèle **interprétable** de régression logistique
-- Calcul d’un score de risque individuel
-- Application web interactive avec **Streamlit**
+## Healthcare Context
+Thirty-day readmission is a key indicator related to:
+- quality of care,
+- hospital workload,
+- and healthcare costs.
+
+A risk prioritization tool can help:
+- identify patients requiring closer follow-up,
+- better allocate healthcare resources,
+- support clinical decision-making without replacing it.
 
 ---
 
-## ⚙️ Choix techniques
-- **Régression logistique** : modèle simple, robuste et explicable
-- **Pipeline ML** : nettoyage, encodage, normalisation
-- **Seuil de décision ajustable** selon la stratégie métier
-- **Streamlit** : visualisation rapide et accessible
-
-Ces choix privilégient la **lisibilité**, la **robustesse** et la **compréhension métier**.
+## Machine Learning Approach
+- Use of anonymized patient administrative and care pathway data
+- Data preprocessing using a scikit-learn pipeline
+- Interpretable logistic regression model
+- Individual readmission risk score prediction
+- Interactive web application built with Streamlit
 
 ---
 
-## 🏗️ Architecture du projet
+## Technical Choices
+- Logistic regression chosen for its simplicity and interpretability
+- End-to-end machine learning pipeline for reproducibility
+- Adjustable decision threshold based on operational constraints
+- Lightweight Streamlit interface for rapid visualization
+
+These choices favor robustness, clarity, and business understanding.
+
+---
+
+## Project Structure
