@@ -43,3 +43,33 @@ These choices favor robustness, clarity, and business understanding.
 ---
 
 ## Project Structure
+
+---
+
+## Features
+- Readmission risk score per patient
+- Tabular visualization with aggregated indicators
+- Adjustable prioritization threshold
+- Simple explanatory section: “Why is this patient at risk?”
+
+---
+
+## Application Overview
+
+### Global View
+Overview of patient risk scores and global indicators used for prioritization.
+
+![Application overview](screenshots/overview.png)
+
+### Patient Risk Explanation
+Indicative explanation of the main factors contributing to a patient's risk score.
+
+![Patient risk explanation](screenshots/explanation.png)
+
+---
+
+## Running the Project Locally
+
+```bash
+python src/train.py
+streamlit run app/app.py
